@@ -1,0 +1,33 @@
+.nav{
+    padding: 1.5rem 6rem;
+    width: 100%;
+    display: flex;
+    @include flexs(center,space-between,0);
+    .logo{
+        width: 12rem;
+        img{
+            width: 100%;
+        }
+    }
+    &-links{
+        list-style-type: none;
+        @include flexs(center,space-between,1.5rem);
+        &-link{
+            text-decoration: none;
+            font-size: $fontsize-sm;
+        }
+    }
+}
+.category{
+    padding: 1rem;
+    background-color: $secondary-color;
+    &-links{
+        @include flexs(center,center,3rem);
+       &--links{
+        color: $text-white-d-color;
+        font-size: $fontsize-sm;
+        text-decoration: none;
+       }
+       
+    }
+}
