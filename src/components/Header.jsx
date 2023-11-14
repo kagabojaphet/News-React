@@ -6,6 +6,7 @@ function Header(){
     return(
 
 <>
+
 <nav className="nav">
             <div className="logo">
                 <img src={photo} alt="" />
