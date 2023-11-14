@@ -17,7 +17,7 @@ function Header(){
                 <li><Link to="#">Sign-In</Link></li>
             </ul>
         </nav>
-        <div className="catrgory">
+        <div className="category">
             <div className="category-links">
                 <li><a href="@" className="category-links--link">Health</a></li>
                 <li><a href="@" className="category-links--link">Political</a></li>

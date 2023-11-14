@@ -23,7 +23,7 @@
     background-color: $secondary-color;
     &-links{
         @include flexs(center,center,3rem);
-       &--links{
+       &--link{
         color: $text-white-d-color;
         font-size: $fontsize-sm;
         text-decoration: none;
