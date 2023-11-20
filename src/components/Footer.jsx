@@ -1,9 +1,9 @@
 import React from "react";
 
 function Footer(){
-    // return(
+    return(
 
-    //     <h1>Footer yagarutse to</h1>
-    // )
+        <h1>Footer yagarutse to</h1>
+    )
 }
 export default Footer;
