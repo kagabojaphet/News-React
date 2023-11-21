@@ -10,3 +10,8 @@
     color: $text-color;
     border-radius: 0.3rem;
 }
+@mixin button {
+    padding: 2rem 4rem;
+  
+    border-radius: 0.3rem;
+  }
